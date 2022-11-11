@@ -27,3 +27,6 @@ boolean 속성.
 ```
 
 <img src="https://user-images.githubusercontent.com/106755183/201258723-10a0f654-c6a2-47ec-9930-32aca5921bd2.png" >
+
+----
+코딩의 시작, TCP School, 날짜 미상, http://www.tcpschool.com/
