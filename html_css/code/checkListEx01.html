@@ -1,0 +1,1154 @@
+<div style="border:5px solid #999;padding:1em;background-color: #f9f9f9">
+	<div><span style="font-weight: bold;"><font color="#0000ff">[표1] 비교값 : 시설현황 (2022년 9월 조사 결과</font><span style="font-weight: bold;"><font color="#ff0000">-일부는 작년 12월 자료</font></span><font color="#0000ff">)</font></span></div>
+	<table class="common mt-2 prev">
+		<colgroup>
+			<col style="width:25%">
+			<col style="width:auto">
+		</colgroup>
+		<tbody>
+		<tr>
+			<th class="text-left" style="font-weight:bold;color:#0000ff;">ⓐ시설 종류별 점유율</th>
+			<td>
+				<div><span style="font-weight:bold;color:#0000ff;">
+				1) 지주식( <input type="text" id="prev_a1" style="width:3em;text-align: center" disabled="" class="is-num"> %)
+				2) 노출 부류식( <input type="text" id="prev_a2" style="width:3em;text-align: center" disabled="" class="is-num"> %)
+				3) 무노출 부류식( <input type="text" id="prev_a3" style="width:3em;text-align: center" disabled="" class="is-num"> %)</span></div>
+			</td>
+		</tr>
+		<tr>
+			<th class="text-left" style="font-weight:bold;color:#0000ff;">ⓑ시설단위</th>
+			<td>
+				<div><span style="font-weight:bold;color:#0000ff;">
+				<label class="mr-2">
+					<input type="radio" name="prev_b" value="1" disabled="">
+					<span>1. 책</span>
+				</label>
+				<label class="mr-2">
+					<input type="radio" name="prev_b" value="2" disabled="">
+					<span>2. 줄</span>
+				</label>
+				<label class="mr-2">
+					<input type="radio" name="prev_b" value="3" disabled="">
+					<span>3. 세트</span>
+				</label>
+			</span></div>
+			</td>
+		</tr>
+		<tr>
+			<th class="text-left" style="font-weight:bold;color:#0000ff;">ⓒ김발규격</th>
+			<td>
+				<div><span style="font-weight:bold;color:#0000ff;">
+				1) 폭 </span>
+					<input type="text" id="prev_c1" style="width:3em;text-align: center" disabled="" class="is-num">
+					<span style="font-weight:bold;color:#0000ff;"> m ×
+				2) 길이 </span>
+					<input type="text" id="prev_c2" style="width:3em;text-align: center" disabled="" class="is-num">
+					<span style="font-weight:bold;color:#0000ff;"> m
+					3) 부산 : 1세트는 </span>
+					<input type="text" id="prev_c3" style="width:3em;text-align: center" disabled="" class="is-num">
+					<span style="font-weight:bold;color:#0000ff;"> 망</span></div>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+	<table class="common mt-2 prev">
+		<colgroup>
+			<col style="width:auto">
+			<col style="width:14%">
+			<col style="width:14%">
+			<col style="width:14%">
+			<col style="width:14%">
+			<col style="width:14%">
+			<col style="width:14%">
+		</colgroup>
+		<thead>
+		<tr>
+			<th style="font-weight:bold;color:#0000ff;">구분</th>
+			<th style="font-weight:bold;color:#0000ff;">1) 총시설량</th>
+			<th style="font-weight:bold;color:#0000ff;">2) 일반김</th>
+			<th style="font-weight:bold;color:#0000ff;">3) 일반김 중 슈퍼김</th>
+			<th style="font-weight:bold;color:#0000ff;">4) 잇바디(별도) : 곱창김</th>
+			<th style="font-weight:bold;color:#0000ff;">5) 모무늬돌김 : 마루바</th>
+			<th style="border-left:5px double black !important;font-weight:bold;color:#0000ff;">5)잇바디(전환)</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<th class="text-center">
+				<div><span style="font-weight:bold;color:#0000ff;">ⓓ전체시설 (해상채묘+육상채묘)</span></div>
+			</th>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_d1" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_d2" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_d3" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_d4" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_d5" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td style="border-left:5px double black !important;">
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_d6" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<th class="text-center">
+				<div><span style="font-weight:bold;color:#0000ff;">ⓔ육상채묘</span></div>
+			</th>
+			<td></td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_e2" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td></td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_e4" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_e5" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td style="border-left:5px double black !important;">
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_e6" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<th class="text-center">
+				<div><span style="font-weight:bold;color:#0000ff;">ⓕ동아채묘 (전남)</span></div>
+			</th>
+			<td></td>
+			<td>
+				<div class="display-flex justify-center">
+					<input type="text" id="prev_f2" style="width:3em;text-align: center;max-width: 100%" disabled="" class="is-num">
+				</div>
+			</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td style="border-left:5px double black !important;"></td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문1. 시설 현황</span></div>
+<table class="common mt-2">
+	<colgroup>
+		<col style="width:25%">
+		<col style="width:auto">
+	</colgroup>
+	<tbody>
+	<tr>
+		<th class="text-left" style="font-weight: bold">ⓒ시설 종류별 점유율</th>
+		<td>
+			<div><span style="font-weight:bold;">
+				1) 지주식( <input type="text" custom-save-name="q1c1" style="width:3em;text-align: center" class="is-num"> %)
+				2) 노출 부류식( <input type="text" custom-save-name="q1c2" style="width:3em;text-align: center" class="is-num"> %)
+				3) 무노출 부류식( <input type="text" custom-save-name="q1c3" style="width:3em;text-align: center" class="is-num"> %)</span></div>
+		</td>
+	</tr>
+	<tr>
+		<th class="text-left" style="font-weight: bold">ⓐ시설단위</th>
+		<td>
+			<div><span style="font-weight:bold;">
+				<label class="mr-2">
+					<input type="radio" custom-save-name="q1a" value="1">
+					<span>1. 책</span>
+				</label>
+				<label class="mr-2">
+					<input type="radio" custom-save-name="q1a" value="2">
+					<span>2. 줄</span>
+				</label>
+				<label class="mr-2">
+					<input type="radio" custom-save-name="q1a" value="3">
+					<span>3. 세트</span>
+				</label>
+			</span></div>
+		</td>
+	</tr>
+	<tr>
+		<th class="text-left" style="font-weight: bold">ⓑ김발규격</th>
+		<td>
+			<div><span style="font-weight:bold;">
+				1) 폭 </span>
+				<input type="text" custom-save-name="q1b1" style="width:3em;text-align: center" class="is-num">
+				<span style="font-weight:bold;"> m ×
+				2) 길이 </span>
+				<input type="text" custom-save-name="q1b2" style="width:3em;text-align: center" class="is-num">
+				<span style="font-weight:bold;"> m
+					3) 부산 : 1세트는 </span>
+				<input type="text" custom-save-name="q1b3" style="width:3em;text-align: center" class="is-num">
+				<span style="font-weight:bold;"> 망</span></div>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문2. 2023년산 시설량</span></div>
+<div>※ 잇바디를 철거 후 다른 품종으로 전환하면 ‘잇바디 전환’, 그대로 철거하면 ‘잇바디 별도’에 작성</div>
+<div>※ 잇바디 전환 시설량만큼 일반김, 잇바디 별도, 모무늬 시설량에 포함되야 함</div>
+<table class="common mt-2">
+	<colgroup>
+		<col style="width:auto">
+		<col style="width:14%">
+		<col style="width:14%">
+		<col style="width:14%">
+		<col style="width:14%">
+		<col style="width:14%">
+		<col style="width:14%">
+	</colgroup>
+	<thead>
+	<tr>
+		<th style="font-weight:bold">구분</th>
+		<th style="font-weight:bold">1) 총시설량<br>(2+3+4)</th>
+		<th style="font-weight:bold">2) 일반김</th>
+		<th style="font-weight:bold">2-1) 일반김 중 슈퍼김</th>
+		<th style="font-weight:bold">3) 잇바디(별도) : 곱창김</th>
+		<th style="font-weight:bold">4) 모무늬돌김 : 마루바</th>
+		<th style="border-left:5px double black !important;font-weight:bold">5)잇바디(곱창김) : 전환</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th class="text-center" style="font-weight: bold">ⓐ전체시설 (해상채묘+육상채묘)</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2a1" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2a2" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2a3" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2a4" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2a5" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td style="border-left:5px double black !important;">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2a6" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th class="text-center" style="font-weight: bold">ⓑ육상채묘</th>
+		<td></td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2b2" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2b3" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2b4" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2b5" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td style="border-left:5px double black !important;">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2b6" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th class="text-center" style="font-weight: bold">ⓒ동아채묘 (전남)</th>
+		<td></td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q2c2" style="width:3em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td style="border-left:5px double black !important;"></td>
+	</tr>
+	</tbody>
+</table>
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문3. 시설량 변동 이유 </span>: 전월 응답 또는 전년 12월 응답과 시설량 다르면 질문</div>
+<div class="mt-2">
+	<textarea class="w-100" custom-save-name="q3" style="height:100px"></textarea>
+</div>
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문4. 종자(패각) 구입량</span></div>
+<table class="common mt-2">
+	<colgroup>
+		<col style="width:25%">
+		<col style="width:25%">
+		<col style="width:25%">
+		<col style="width:25%">
+	</colgroup>
+	<thead>
+	<tr>
+		<th>
+			<span style="font-weight:bold;">1) 합계(상자)</span>
+		</th>
+		<th>
+			<span style="font-weight:bold;">2) 일반김</span>
+		</th>
+		<th>
+			<span style="font-weight:bold;">3) 잇바디(곱창김)</span>
+		</th>
+		<th>
+			<span style="font-weight:bold;">4) 모무늬돌김(마루바)</span>
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q4_1" style="width:3em;text-align: center;max-width: 100%"> 상자
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q4_2" style="width:3em;text-align: center;max-width: 100%"> 상자
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q4_3" style="width:3em;text-align: center;max-width: 100%"> 상자
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q4_4" style="width:3em;text-align: center;max-width: 100%"> 상자
+			</div>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문5. 인공채묘 현황(동아채묘 제외)</span> : 초순/중순/하순으로 응답한 경우 초순은 5, 중순은 15, 하순은 25로 입력</div>
+<table class="common mt-2">
+	<colgroup>
+		<col style="width:10%">
+		<col style="width:16%">
+		<col style="width:37%">
+		<col style="width:37%">
+	</colgroup>
+	<thead>
+	<tr>
+		<th colspan="2">
+			<div><span style="font-weight:bold;">구분</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">1) 잇바디돌김</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">2) 일반김/모무늬돌김</span></div>
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th rowspan="2">
+			<div><span style="font-weight:bold;">채묘 시기</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓐ해상채묘</span></div>
+		</th>
+		<td class="text-center">
+			<input type="text" custom-save-name="q5a1" style="display:none">
+			<input type="text" custom-save-name="q5a1_1" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5a1_2" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일 ~
+			<input type="text" custom-save-name="q5a1_3" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5a1_4" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일
+		</td>
+		<td class="text-center">
+			<input type="text" custom-save-name="q5a2" style="display:none">
+			<input type="text" custom-save-name="q5a2_1" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5a2_2" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일 ~
+			<input type="text" custom-save-name="q5a2_3" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5a2_4" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓑ육상채묘</span></div>
+		</th>
+		<td class="text-center">
+			<input type="text" custom-save-name="q5b1" style="display:none">
+			<input type="text" custom-save-name="q5b1_1" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5b1_2" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일 ~
+			<input type="text" custom-save-name="q5b1_3" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5b1_4" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일
+		</td>
+		<td class="text-center">
+			<input type="text" custom-save-name="q5b2" style="display:none">
+			<input type="text" custom-save-name="q5b2_1" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5b2_2" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일 ~
+			<input type="text" custom-save-name="q5b2_3" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q5b2_4" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일
+		</td>
+	</tr>
+	</tbody>
+</table>
+<table class="common mt-2">
+	<colgroup>
+		<col style="width:19%">
+		<col style="width:27%">
+		<col style="width:27%">
+		<col style="width:27%">
+	</colgroup>
+	<thead>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">구분</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">1) 일반김</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">2) 잇바디돌김(곱창김)</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">3) 모무늬돌김(마루바)</span></div>
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓔ채묘상태</span></div>
+		</th>
+		<td>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e2" value="1">
+				<span>매우 좋음</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e2" value="2">
+				<span>좋음</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e2" value="3">
+				<span>보통</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e2" value="4">
+				<span>나쁨</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e2" value="5">
+				<span>매우 나쁨</span>
+			</label>
+		</td>
+		<td>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e3" value="1">
+				<span>매우 좋음</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e3" value="2">
+				<span>좋음</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e3" value="3">
+				<span>보통</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e3" value="4">
+				<span>나쁨</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e3" value="5">
+				<span>매우 나쁨</span>
+			</label>
+		</td>
+		<td>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e4" value="1">
+				<span>매우 좋음</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e4" value="2">
+				<span>좋음</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e4" value="3">
+				<span>보통</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e4" value="4">
+				<span>나쁨</span>
+			</label>
+			<label class="mr-2 display-flex">
+				<input type="radio" custom-save-name="q5e4" value="5">
+				<span>매우 나쁨</span>
+			</label>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓕ채묘상태 이유</span></div>
+		</th>
+		<td colspan="3">
+			<div class="display-flex">
+				<textarea class="w-100" custom-save-name="q5f" style="height:100px"></textarea>
+			</div>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문6. 당월 채취 현황</span></div>
+<table class="common mt-2">
+	<colgroup>
+		<col style="width:10%">
+		<col style="width:15%">
+		<col style="width:25%">
+		<col style="width:25%">
+		<col style="width:25%">
+	</colgroup>
+	<thead>
+	<tr>
+		<th colspan="2">
+			<div><span style="font-weight:bold;">구 분</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">1)일반김</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">2)잇바디돌김(곱창김)</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">3)모무늬돌김(마루바)</span></div>
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th rowspan="3">
+			<div><span style="font-weight:bold;">1회 채취</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓐ채취시기</span></div>
+		</th>
+		<td colspan="3" class="text-center">
+			<input type="text" custom-save-name="q6a" style="display:none">
+			<input type="text" custom-save-name="q6a_1" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q6a_2" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일 ~
+			<input type="text" custom-save-name="q6a_3" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q6a_4" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓑ채취시설량</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6b1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6b2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6b3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓒ총채취량 (포대/속)</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6c1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6c2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6c3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="3">
+			<div><span style="font-weight:bold;">2회 채취</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓓ채취시기</span></div>
+		</th>
+		<td colspan="3" class="text-center">
+			<input type="text" custom-save-name="q6d" style="display:none">
+			<input type="text" custom-save-name="q6d_1" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q6d_2" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일 ~
+			<input type="text" custom-save-name="q6d_3" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q6d_4" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓔ채취시설량</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6e1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6e2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6e3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓕ총채취량 (포대/속)</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6f1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6f2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6f3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="3">
+			<div><span style="font-weight:bold;">3회 채취</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓖ채취시기</span></div>
+		</th>
+		<td colspan="3" class="text-center">
+			<input type="text" custom-save-name="q6g" style="display:none">
+			<input type="text" custom-save-name="q6g_1" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q6g_2" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일 ~
+			<input type="text" custom-save-name="q6g_3" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			월
+			<input type="text" custom-save-name="q6g_4" style="width:2em;text-align: center;max-width: 100%" maxlength="2">
+			일
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓗ채취시설량</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6h1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6h2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6h3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓘ총채취량 (포대/속)</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6i1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6i2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6i3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="2" style="background-color: rgb(232,247,205)">
+			<div><span style="font-weight:bold;">채취 단위</span></div>
+		</th>
+		<th style="background-color: rgb(232,247,205)">
+			<div><span style="font-weight:bold;">ⓙ1포대 무게</span></div>
+		</th>
+		<td style="background-color: rgb(232,247,205)">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6j1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+				kg
+			</div>
+		</td>
+		<td style="background-color: rgb(232,247,205)">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6j2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+				kg
+			</div>
+		</td>
+		<td style="background-color: rgb(232,247,205)">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6j3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+				kg
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th style="background-color: rgb(232,247,205)">
+			<div><span style="font-weight:bold;">ⓚ1속 무게</span></div>
+		</th>
+		<td style="background-color: rgb(232,247,205)">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6k1" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+				g
+			</div>
+		</td>
+		<td style="background-color: rgb(232,247,205)">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6k2" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+				g
+			</div>
+		</td>
+		<td style="background-color: rgb(232,247,205)">
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6k3" style="width:4em;text-align: center;max-width: 100%" class="is-num">
+				g
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="3">
+			<div><span style="font-weight:bold;">작황 수준</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓛ<span style="color:red">본인 채취</span> 작황 수준 : 작년 동월 대비</span></div>
+		</th>
+		<td colspan="3" class="text-center">
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6l" value="1">
+				<span>매우 좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6l" value="2">
+				<span>좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6l" value="3">
+				<span>보통</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6l" value="4">
+				<span>나쁨</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6l" value="5">
+				<span>매우 나쁨</span>
+			</label>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓜ<span style="color:red">지역 전체</span> 작황 수준 : 작년 동월 대비</span></div>
+		</th>
+		<td colspan="3" class="text-center">
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6m" value="1">
+				<span>매우 좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6m" value="2">
+				<span>좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6m" value="3">
+				<span>보통</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6m" value="4">
+				<span>나쁨</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6m" value="5">
+				<span>매우 나쁨</span>
+			</label>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓝ품질 수준 <span style="color:red">(본인 채취)</span> 작년 동월 대비</span></div>
+		</th>
+		<td colspan="3" class="text-center">
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6n" value="1">
+				<span>매우 좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6n" value="2">
+				<span>좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6n" value="3">
+				<span>보통</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6n" value="4">
+				<span>나쁨</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6n" value="5">
+				<span>매우 나쁨</span>
+			</label>
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="3">
+			<div><span style="font-weight:bold;">가격</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓞ포대당 가격</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6o1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				원
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6o2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				원
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6o3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				원
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓟ속당 가격</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6p1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				원
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6p2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				원
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q6p3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				원
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓠ작년 동월대비 가격</span></div>
+		</th>
+		<td colspan="3" class="text-center">
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6q" value="1">
+				<span>매우 좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6q" value="2">
+				<span>좋음</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6q" value="3">
+				<span>보통</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6q" value="4">
+				<span>나쁨</span>
+			</label>
+			<label class="mr-2">
+				<input type="radio" custom-save-name="q6q" value="5">
+				<span>매우 나쁨</span>
+			</label>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<div>&nbsp;</div>
+<div><span style="font-weight:bold;">문7. 익월 채취 현황</span></div>
+<table class="common mt-2">
+	<colgroup>
+		<col style="width:10%">
+		<col style="width:15%">
+		<col style="width:25%">
+		<col style="width:25%">
+		<col style="width:25%">
+	</colgroup>
+	<thead>
+	<tr>
+		<th colspan="2">
+			<div><span style="font-weight:bold;">구 분</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">1)일반김</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">2)잇바디돌김(곱창김)</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">3)모무늬돌김(마루바)</span></div>
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th colspan="2">
+			<div><span style="font-weight:bold;">ⓐ채취시설량</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7a1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				<span class="unit"></span>
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7a2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				<span class="unit"></span>
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7a3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				<span class="unit"></span>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th colspan="2">
+			<div><span style="font-weight:bold;">ⓑ1회 채취 시 1책당 채취량(작황)</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7b1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				<span class="unit"></span>
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7b2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				<span class="unit"></span>
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7b3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				<span class="unit"></span>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="2">
+			<div><span style="font-weight:bold;">무게</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓒ물김 포대 무게</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7c1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				kg
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7c2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				kg
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7c3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				kg
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓓ물김 속 무게</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7d1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				속
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7d2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				속
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7d3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				속
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="2">
+			<div><span style="font-weight:bold;">채취량</span></div>
+		</th>
+		<th>
+			<div><span style="font-weight:bold;">ⓔ총 채취 포대</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7e1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				포대
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7e2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				포대
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7e3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				포대
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th>
+			<div><span style="font-weight:bold;">ⓕ총 채취 속</span></div>
+		</th>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7f1" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				속
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7f2" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				속
+			</div>
+		</td>
+		<td>
+			<div class="display-flex justify-center">
+				<input type="text" custom-save-name="q7f3" style="width:6em;text-align: center;max-width: 100%" class="is-num">
+				속
+			</div>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문8. 김양식업 애로사항, 해황, 갯병피해 등</span></div>
+<div class="mt-2">
+	<textarea class="w-100" custom-save-name="q8" style="height:100px"></textarea>
+</div>
+<div> &nbsp; </div>
+<div><span style="font-weight:bold;">문9. 문항별 특이사항 </span>: 무응답 사유, 실사 특이사항 등</div>
+<div class="mt-2">
+	<textarea class="w-100" custom-save-name="q9" style="height:100px"></textarea>
+</div>
