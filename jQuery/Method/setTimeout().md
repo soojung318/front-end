@@ -8,14 +8,14 @@ setTimeout()은 지정된 시간이 지난 뒤 1회 실행되는 함수이다.
 첫 번째 인자로 실행할 코드를 담고 있는 함수를 받고,<br>
 두 번째 인자로 지연 시간을 밀리초(ms)단위로 받는다.
 <br>
-#### ex1) 1초 기다린 후에 console.lof() 함수 호출
+#### ex1) 1초 기다린 후에 console.log() 함수 호출
 ```
 setTimeout(function(){
   console.log("1초 뒤에 생성됩니다.");
 },1000)
 ```
 
-#### ex2) 1초 기다린 후에 console.lof() 함수 호출
+#### ex2) 1초 기다린 후에 console.log() 함수 호출
 ```
 var timeOut = function(){
   console.log("TimeOut() 실행!");
@@ -23,7 +23,7 @@ var timeOut = function(){
 setTimeout(timeOut,1000);
 ```
 
-#### ex3) 1초 기다린 후에 console.lof() 함수 호출
+#### ex3) 1초 기다린 후에 console.log() 함수 호출
 ```
 var timeOut = function(){
   console.log("TimeOut() 실행!");
