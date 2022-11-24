@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/* 공통 */
+.text-left {text-align:left !important;}
+.text-right {text-align:right}
+.text-center {text-align:center}
+.display-none {display:none !important;}
+.display-flex {
+	display: -webkit-flex !important;
+	display: -moz-flex !important;
+	display: -ms-flexbox !important;
+	display: -o-flex !important;
+	display: flex !important;
+}
+.flex-column {
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.display-block {display:block}
+.display-inline {display:inline}
+.display-inline-block {display:inline-block}
+.float-right {float:right}
+.w-100 {width:100%}
+.w-90 {width:90%}
+.mr-1 {margin-right:.2em !important;}
+.mr-2 {margin-right:.4em !important;}
+.mr-auto {margin-right:auto;}
+.ml-auto {margin-left:auto;}
+.ml-1 {margin-left:.2em !important;}
+.ml-2 {margin-left:.4em !important;}
+.ml-5 {margin-left:1em !important;}
+.mt-1 {margin-top:.2em !important;}
+.mt-2 {margin-top:.4em !important;}
+.mb-1 {margin-bottom:.2em !important;}
+.mb-2 {margin-bottom:.4em !important;}
+.mb-3 {margin-bottom:.6em !important;}
+.mb-4 {margin-bottom:.8em !important;}
+.mb-5 {margin-bottom:1em !important;}
+.p-0 {padding:0 !important}
+.p-1 {padding:1px !important}
+.p-2 {padding:2px !important}
+.pl-1 {padding-left:.2em !important}
+.pl-2 {padding-left:.4em !important}
+.pl-3 {padding-left:.6em !important}
+.pl-4 {padding-left:.8em !important}
+.pr-1 {padding-right:.2em !important}
+.pr-2 {padding-right:.4em !important}
+.pr-3 {padding-right:.6em !important}
+.pr-4 {padding-right:.8em !important}
+.border-none {border:none !important;}
+.s-btn-ok {background-color:#1f8dd6;color:white;}
+.s-btn-danger {background-color:#fc5353;color:white;}
+.pure-button-info {background-color:#29b6f6;color:white;}
+.pure-button-success {background-color:#66bb6a;color:white;}
+.pure-button-danger {background-color:#ee6e73;color:white;}
+.pure-button-warning {background-color:#ffc107;color:white;}
+.pure-button-primary {background-color:#1f8dd6;color:white;}
+.no-border {border:none !important;border-radius: 0px !important;}
+
+.warning {color:red}
+.align-center {
+	-ms-flex-align:center;
+	align-items:center;
+}
+.justify-center {
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.flex-wrap {
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.no-deco {text-decoration:none}
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+/* flex width 내용만큼 */
+.flex-width-0 {
+	flex:0 0 auto;
+	-ms-flex: 0 0 auto;
+	display:block;
+}
+/* flex width 자동 꽉 채우기 */
+.flex-width-1 {
+	flex:1 1 auto;
+	-ms-flex:1 1 auto;
+	display:block;
+}
+label {
+	cursor:pointer;
+	align-items:baseline;
+}
+label > input {
+	cursor:pointer;
+}
+input[type=checkbox] {
+	cursor:pointer;
+}
+
+/* 버튼 */
+button {border-radius:0.3em !important}
+button.gray {
+	border:1px solid #bbb;
+	padding:.2em .4em .3em;
+}
+button.mid {
+	padding:.4em .5em;
+	font-size:95%;
+}
+button.small {
+	padding:.2em .3em;
+	font-size:90%;
+}
+button.x-small {
+	padding:.1em .2em;
+	font-size:80%;
+}
+button.new-mid {
+	border:1px solid #bbb;
+	padding:.2em .4em .3em;
+}
+
+/*복붙상자*/
+div.pastebox {
+	font-size:1px;
+	overflow:hidden;
+}
+
+/* 페이징 */
+ul.pagination {
+	list-style:none;
+	display: -webkit-flex !important;
+	display: -moz-flex !important;
+	display: -ms-flexbox !important;
+	display: -o-flex !important;
+	display: flex !important;
+	margin:8px;
+	padding:0;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;	font-size:140%;
+}
+ul.pagination li {
+	margin:0 5px;
+}
+ul.pagination li.active > a{
+	color:red;
+}
+ul.pagination li > a {
+	text-decoration:none;
+	font-weight:normal;
+	color:#666;
+}
+
+ul.common {
+	padding-left:20px;
+}
+
+/*MODAL 배경*/
+.blocker {
+	background-color:rgba(0,0,0,0.5) !important;
+}
+/*MODAL TITLE*/
+.modal-title {
+	border-bottom:1px dotted #ccc;
+	margin-bottom:.6em;
+	font-weight:bold;
+	color:#1f8dd6;
+}
+/*MODAL 버튼*/
+.modal-buttons {
+	border-top:1px dotted #ccc;
+	margin-top:.2em;
+	padding-top:0.9em;
+}
+/*MODAL의 내용 줄*/
+.modal-row {
+	margin-bottom:.2em;
+	display:flex;
+}
+.modal-row > span {
+	align-self:center;
+}
+
+/* 진행바 */
+div.progress-total {
+	border:1px solid #ddd;
+	height:1.5em;
+}
+div.progress-complete {
+	background-color:#1f8dd6;
+	width:30%;
+	height:1.5em;
+}
+
+/* 달력 */
+div.datepicker {
+	position:absolute;
+	background:white;
+	border:1px solid #999;
+	box-shadow: 6px 6px 16px #aaa;
+	padding:1em;
+	margin:1em;
+}
+.ui-datepicker{ font-size: 95%;}
+#ui-datepicker-div {width:auto !important;}
+.ui-datepicker .ui-datepicker-group{width:14em}
+
+@media screen and (min-width:35.5em){
+	.w-sm-1-6 {
+		width:16.666666% !important;
+	}
+}
+
+@media screen and (min-width:48em){
+	.w-md-1-3 {
+		width:33.333333% !important;
+	}
+}
+
+@media screen and (min-width:64em){
+	.w-lg-1-3 {
+		width:33.333333% !important;
+	}
+	.w-lg-1-6 {
+		width:16.666666% !important;
+	}
+}
+
+@media screen and (min-width:80em){
+	.w-xl-1-6 {
+		width:16.666666% !important;
+	}
+	.w-xl-1-12 {
+		width:8.333333% !important;
+	}
+}
