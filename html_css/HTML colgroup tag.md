@@ -1,4 +1,4 @@
-## HTML &lt;colgroup&gt 태그
+## HTML &lt;colgroup&gt; 태그
 ### 정의 및 특징
 &lt;colgroup&gt;태그는 테이블에서 서식 지정을 위해 하나 이상의 열을 그룹으로 묶을 때 사용한다.<br><br>
 
