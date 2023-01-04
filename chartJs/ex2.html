@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Chart.js Bar</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx,{
+    type:'bar',
+    data: {
+      labels: ['Red','Blue','Yellow','Green','Purple','Orange'],    // x축 라벨
+      datasets: [{
+        label: '# of Votes',      // 데이터 수치 설명
+        data: [12, 19, 3, 5, 2, 3],   // 데이터 수치
+        borderWidth: 1    // 막대그래프 각 데이터 "테두리" 넓이
+      }]
+    },
+    options: {
+      scales:{
+        y:{
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
