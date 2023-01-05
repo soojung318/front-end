@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Chart.js Bar</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
 <div>
   <canvas id="myChart"></canvas>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
   const ctx = document.getElementById('myChart');
 
@@ -23,7 +24,7 @@
       }]
     },
     options: {
-      scales:{
+      scales:{      // scales : 범위 설정
         y:{
           beginAtZero: true
         }
@@ -33,3 +34,9 @@
 </script>
 </body>
 </html>
+
+<!--
+
+1. canvas를 먼저 생성해야 CDN에서 Chart.js를 포함할 수 있다.
+
+-->
