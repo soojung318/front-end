@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>날짜 정보 객체</title>
+</head>
+<body>
+<script>
+  var today = new Date();
+  var nowMonth = today.getMonth(), nowDate = today.getDate(), nowDay = today.getDay();    //이게 가능하네..
+
+  //오늘 날짜 정보 객체 생성
+  document.write("<h1>오늘 날짜 정보</h1>");
+  document.write("현재 월: " + nowMonth, "<br>");   // 문자열과 객체는 + 로 연결하면서 태그는 ,(콤마)로 연결함.
+  document.write("현재 일: " + nowDate, "<br>");
+  document.write("현재 요일: " + nowDay, "<br>");
+
+  //월드컵 날짜 정보 객체 생성
+  var worldcup = new Date(2002,4,31);
+  var theMonth = worldcup.getMonth(), theDate = worldcup.getDate(), theDay = worldcup.getDay();
+
+  document.write("<h1>월드컵 날짜 정보</h1>")
+  document.write("2002월드컵 몇 월: " + theMonth, "<br>");
+  document.write("2002월드컵 몇 일: " + theDate, "<br>");
+  document.write("2002월드컵 무슨 요일: " + theDay, "<br>");
+
+  // 0  1  2 3  4  5 6
+  // 일 월 화 수 목 금 토
+
+  document.write("<h1>연말까지 남은 일 수</h1>")
+
+  // 현재 날짜부터 연말까지 며칠이 남았는지 계산
+  var today = new Date();
+  var nowYear = today.getFullYear();
+
+  var theDate = new Date(nowYear, 11, 31);  // 참조변수 = new Date(연, 월-1, 일);
+  var diffDate = theDate.getTime() - today.getTime();
+
+  var result = Math.ceil(diffDate / (60 * 1000 * 60 * 24));
+  document.write("연말 D-day: " + result + "일 남았습니다.", "<br>");
+  document.write("현재 연도: " + nowYear, "<br>");
+  document.write("현재 월: " + nowMonth, "<br>");
+  document.write("현재 일: " + nowDate, "<br>");
+  document.write("현재 요일: " + nowDay, "<br>");
+</script>
+</body>
+</html>
