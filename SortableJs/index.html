@@ -1,0 +1,71 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+    <title>DRAG AND DROP SAMPLE PAGE</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../devheart-examples.css" media="screen" />
+</head>
+<body class="dhe-body">
+
+<div id="center-wrapper">
+
+    <div class="dhe-example-section" id="ex-2-1">
+        <div class="dhe-example-section-content">
+
+            <div id="publicUser">
+
+                <p><button class="input-button" onclick="getItems()" ><span>GET DATA TEST IN RIGHT</span></button></p>
+
+                <div class="column left first">
+
+                    <ul class="sortable-list">
+                        <li class="sortable-item" id="A">TEST DATE A</li>
+                        <li class="sortable-item" id="B">TEST DATA B</li>
+                    </ul>
+
+                </div>
+
+                <div class="column left" id="test">
+
+                    <ul class="sortable-list">
+                        <li class="sortable-item" id="C">TEST DATA C</li>
+                        <li class="sortable-item" id="D">TEST DATA D</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="clearer">&nbsp;</div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery-ui-1.8.custom.min.js"></script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+
+<script type="text/javascript">
+
+    function getItems()
+    {
+        var columns = [];
+        var values = [];
+        $("#test ul.sortable-list").each(function(){
+            columns.push($(this).text());
+            values.push($(this).sortable('toArray').join(','));
+        });
+
+        alert("columns == "+columns);
+        alert("values == "+values);
+    }
+
+    $(document).ready(function(){
+        $('#publicUser .sortable-list').sortable({
+            connectWith: '#publicUser .sortable-list'
+        });
+    });
+</script>
+
+</body>
+</html>

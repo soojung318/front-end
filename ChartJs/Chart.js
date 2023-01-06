@@ -5230,7 +5230,7 @@ module.exports = function(Chart) {
 		}
 	};
 	helpers.inherits = function(extensions) {
-		// Basic javascript inheritance based on the model created in Backbone.js
+		// Basic JavaScript inheritance based on the model created in Backbone.js
 		var me = this;
 		var ChartElement = (extensions && extensions.hasOwnProperty('constructor')) ? extensions.constructor : function() {
 			return me.apply(this, arguments);
