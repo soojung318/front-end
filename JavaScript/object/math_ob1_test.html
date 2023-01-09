@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>수학 객체</title>
+</head>
+<body>
+
+<script>
+  var num = 2.1234;
+
+  var maxNum = Math.max(10, 5, 8, 30),
+          minNum = Math.min(10, 5, 8, 30),
+          roundNum = Math.round(num),
+          floorNum = Math.floor(num),
+          ceilNum = Math.ceil(num),
+          rndNum = Math.random(),
+          piNum = Math.PI;
+
+  document.write("<h1>수학 내장 객체</h1>");
+  document.write(maxNum, "<br>");
+  document.write(minNum, "<br>");
+  document.write(roundNum, "<br>");   //Math.round : 소수점 첫째 자리에서 반올림하여 정수 반환
+  document.write(floorNum, "<br>");   //Math.floor : 소수점 첫째 자리에서 무조건 내림하여 정수 반환
+  document.write(ceilNum, "<br>");   //Math.ceil : 소수점 첫째 자리에서 무조건 올림하여 정수 반환
+  document.write(rndNum, "<br>");   //Math.random : 0~1 사이의 난수 발생
+  document.write(piNum, "<br>");
+
+  document.write("<h1>난수를 발생하여 원하는 구간 정수의 값 구하기</h1>");
+  document.write("<h3>컴퓨터 가위, 바위, 보 맞추기</h3>");
+
+  var game = prompt("가위, 바위, 보 중 선택하세요?", "가위");
+  var gameNum;
+  switch (game){
+    case "가위":
+      gameNum = 1; break;
+    case "바위":
+      gameNum = 2; break;
+    case "보":
+      gameNum = 3; break;
+    default: alert("잘못 작성했습니다."); location.reload();
+  }
+
+  var com = Math.ceil(Math.random()*3); //1~3까지 난수 발생
+
+  if(gameNum == com) {
+      document.write("👉");
+  }else{
+      document.write("🤜");
+  }
+</script>
+</body>
+</html>
